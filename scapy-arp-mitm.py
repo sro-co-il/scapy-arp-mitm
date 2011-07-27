@@ -20,7 +20,7 @@ def get_default_gateway_ip(iface):
 		return False
 
 if len(sys.argv) < 2:
-	print "Usage: ./arpshit.py victim_ip [iface (default eth0)]"
+	print "Usage: ./scapy-arp-mitm.py victim_ip [iface (default eth0)]"
 	print "Make sure you have packet forwarding enabled!"
 	sys.exit(0)
 
